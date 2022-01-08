@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!--Form Element-->
+
+   <h2>University Admission Test</h2>
+
+   <form action="">
+       <p>Name : <input type="text" placeholder="enter your name"></p>
+       <p>Email : <input type="email" placeholder="enter your email"></p>
+       <fieldset>
+           <legend>Select your university</legend>
+           <p>
+               <label for="duni">
+                <input type="radio" name="University" id="duni">Dhaka University
+               </label>
+           </p>
+           <p>
+               <label for="runi">
+                <input type="radio" name="University" id="runi">Rajshahi University
+               </label>
+           </p>
+           <p>
+               <label for="muni">
+                <input type="radio" name="University" id="muni">Metropoliton University
+               </label>
+           </p>
+       </fieldset>
+       <fieldset>
+           <legend>Select your subject</legend>
+           <p>
+               <label for="sci">
+               <input type="checkbox" name="sub" id="sci">Science
+              </label>
+           </p>
+           <p>
+               <label for="acc">
+               <input type="checkbox" name="dub" id="scc">Accounting
+              </label>
+           </p>
+           <p>
+               <label for="ar">
+               <input type="checkbox" name="sub" id="ar">Art
+               </label>
+           </p>
+       </fieldset>
+       <br>
+       <p>Special Cases</p>
+       <textarea name="scases" id="" cols="30" rows="10"></textarea>
+       <button type="submit">submit</button>
+       <button type="reset">Clear</button>
+    </form>
+</body>
+</html>
