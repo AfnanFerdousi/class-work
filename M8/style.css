@@ -1,0 +1,11 @@
+/* Flexbox */
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px dashed rgb(101, 101, 240);
+    font-size: 3em;
+}
