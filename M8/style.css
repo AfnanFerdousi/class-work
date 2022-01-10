@@ -89,3 +89,39 @@ nav a {
 .day{
     margin-bottom: 20px;
 }
+
+/* Responsive Resturant Menu */
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.food{
+    border: 2px solid rosybrown;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+    padding: 20px 0px;
+}
+.food img{
+    widows: 80%;
+}
+
+.food button{
+    width: 150px;
+    background-color: #e68545;
+    color: #fff;
+}
+.food button:hover{
+    background-color: #e7a87e;
+    transition: .4s;
+    cursor: pointer;
+}
+
+/* @media (max-width:700px) {
+    .menu-container{
+        flex-direction: column;
+    }    
+    .food{
+        margin-bottom: 20px;
+    }
+} */
