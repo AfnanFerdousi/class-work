@@ -67,3 +67,25 @@ nav a {
 }
 
 /* Grid Calendar */
+.calendar{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 90px repeat(5,1fr);
+    grid-gap: .6em;
+    height: 25em;
+}
+.date, .day{
+    background-color: rgb(186, 108, 216);
+    color: #fff;
+    font-size: 2em;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border-radius: .4em;
+}
+.other-months{
+    background-color: rgb(225, 164, 250);
+}
+.day{
+    margin-bottom: 20px;
+}
