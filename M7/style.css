@@ -25,17 +25,17 @@
   overflow-y: scroll;
 }
 
-.field{
-    border: 1px solid purple;
+.field {
+  border: 1px solid purple;
 }
 
-.field:hover .bat{
+.field:hover .bat {
   transform: rotate(-60deg);
   transform-origin: top right;
   transition: 0.2s;
 }
-.bat{
-    transition: transform 0.2s ease-in ;
+.bat {
+  transition: transform 0.2s ease-in;
 }
 .ball {
   width: 50px;
@@ -44,8 +44,8 @@
   background-color: red;
   left: 720px;
   position: relative;
-  transition: transform .1s ease-out .3s;
+  transition: transform 0.1s ease-out 0.3s;
 }
-.field:hover .ball{ 
-    transform: translate(500px);
+.field:hover .ball {
+  transform: translate(500px);
 }
