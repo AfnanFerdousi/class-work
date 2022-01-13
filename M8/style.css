@@ -45,7 +45,7 @@ nav {
 nav a {
     text-decoration: none;
     font-size: 20px;
-    color: #ddd;
+    color: rgb(0, 0, 0);
     padding: 20px;
 }
 .profile a i{
